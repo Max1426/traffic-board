@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Traffic Board, O=Local Android Apps, C=CN
+Signer #1 certificate SHA-256 digest: d1f5b11168b60eda0a582f11ed84415fe099c920d77ee9d80403947bd9acddf3
+Signer #1 certificate SHA-1 digest: 298be51c22cf6e4a960e9e34f3dc57b2f75a72f0
+Signer #1 certificate MD5 digest: 561fea910e12b35a1b6293ea269f1c5b
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 74bae0062669190b3b7093e2a9f3ad76e3f8fe572b3f65e1a9aebfe8a43c9a54
+Signer #1 public key SHA-1 digest: 13da7799fc1da8119c4811b26fe122678cc8e755
+Signer #1 public key MD5 digest: 01c3778711c3dfe5e25e4c9dcc9fddc8

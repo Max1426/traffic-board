@@ -1,0 +1,70 @@
+{
+  "applicationId": "com.liuliang.board",
+  "version": "1.1.2",
+  "minSdk": 26,
+  "targetSdk": 35,
+  "bytes": 7327393,
+  "sha256": "DA2DFE6DE6C369BF097D692D82030C110397F851676533ED5456EBEE9F47ED78",
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "unit": {
+    "tests": 47,
+    "failures": 0,
+    "errors": 0
+  },
+  "device": {
+    "normal": {
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    "small-largefont": {
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 1
+    },
+    "release": {
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  "scrollPerformance": {
+    "1.1.1": {
+      "frames": 65,
+      "medianMs": 73,
+      "p95Ms": 109,
+      "jankyPercent": 86.15
+    },
+    "1.1.2": {
+      "frames": 41,
+      "medianMs": 109,
+      "p95Ms": 150,
+      "jankyPercent": 100.0
+    }
+  },
+  "releaseInstallAndColdStart": "passed on Android 16 emulator",
+  "realProviderTested": false,
+  "physicalDeviceTested": false,
+  "sixHourWallClockWaitPerformed": false,
+  "upgrade": {
+    "from": "1.1.1",
+    "to": "1.1.2",
+    "installMode": "adb install -r",
+    "fixtureName": "MigrationCheck",
+    "subscriptionRestored": true,
+    "modifiedPreferencesRestored": {
+      "dynamicColors": false,
+      "hapticsEnabled": false
+    }
+  }
+}

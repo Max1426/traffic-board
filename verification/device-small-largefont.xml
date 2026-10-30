@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.liuliang.board.BoardDeviceTest" tests="7" failures="0" errors="0" skipped="0" time="53.269" timestamp="2026-10-30T15:19:01" hostname="localhost">
+  <properties>
+    <property name="device" value="Medium_Phone_API_36.1(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="realBackdropBlurReducesStripeContrastAndFallbackStillRenders" classname="com.liuliang.board.BoardDeviceTest" time="8.103" />
+  <testcase name="progressiveBlurIsOpaqueAndChangesContinuouslyAcrossTheWholeFade" classname="com.liuliang.board.BoardDeviceTest" time="2.711" />
+  <testcase name="materialThemesAndHapticsPreferencesPersistImmediately" classname="com.liuliang.board.BoardDeviceTest" time="10.561" />
+  <testcase name="validationLongNamesUnknownFieldsAndLargeFontLayout" classname="com.liuliang.board.BoardDeviceTest" time="6.619" />
+  <testcase name="addRefreshEditSettingsDeleteAndEncryptedPersistence" classname="com.liuliang.board.BoardDeviceTest" time="16.854" />
+  <testcase name="frostedBarsRemainInteractiveWhileContentScrollsBehindThem" classname="com.liuliang.board.BoardDeviceTest" time="5.081" />
+  <testcase name="notificationsAreDeliveredOnceAndRetainTheirThresholdState" classname="com.liuliang.board.BoardDeviceTest" time="2.388" />
+</testsuite>

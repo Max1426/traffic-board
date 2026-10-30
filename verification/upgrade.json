@@ -1,0 +1,11 @@
+{
+  "from": "1.1.1",
+  "to": "1.1.2",
+  "installMode": "adb install -r",
+  "fixtureName": "MigrationCheck",
+  "subscriptionRestored": true,
+  "modifiedPreferencesRestored": {
+    "dynamicColors": false,
+    "hapticsEnabled": false
+  }
+}
