@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "installerExitCode": 0,
+  "installedResourcesMatch": true,
+  "inputIdle": true,
+  "windowTitle": "流量看板",
+  "closeRequested": true,
+  "closedWithin15Seconds": true
+}

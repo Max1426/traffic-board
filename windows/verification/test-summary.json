@@ -1,0 +1,8 @@
+{
+  "tests": 53,
+  "passed": 53,
+  "failed": 0,
+  "framework": "net10.0-windows10.0.19041.0",
+  "testProject": "windows/tests/TrafficBoard.Tests",
+  "date": "2026-10-31"
+}

@@ -1,12 +1,23 @@
-# 流量看板 · Android
+# 流量看板 · Android / Windows
 
 独立查看 VPN 订阅套餐额度的原生安卓应用。支持 Android 8.0（API 26）及以上，不建立 VPN 连接，可与现有 VPN 客户端配合使用。
 
+现已加入使用 **WinUI 3** 编写的 Windows 原生版本，目标系统为 Windows 10 22H2 / Windows 11 x64。Windows 版目前为公开测试版，构建方法、功能和验证边界见 [Windows 版说明](windows/README.md)。两个平台各自保存本机数据，不自动同步。
+
 ## 下载与安装
+
+| 平台 | 版本 | 下载 |
+| --- | --- | --- |
+| Android 8.0+ | 1.1.2，正式版 | [Android 发布页](https://github.com/Max1426/traffic-board/releases/tag/v1.1.2) |
+| Windows 10 22H2 / 11 x64 | 1.0.0，测试版 | [Windows 安装包与源码](https://github.com/Max1426/traffic-board/releases/tag/windows-v1.0.0) |
+
+Windows 用户请下载 `TrafficBoard-Windows-Setup-1.0.0-x64.exe`，双击安装；安装包自带 .NET 和 Windows App SDK 运行时。关闭窗口即完全退出，不会留在托盘后台刷新。Windows 版尚未完成全部界面、通知点击、缩放及 Windows 10 实机验收，欢迎试用反馈。
+
+以下为 Android 版的功能、界面和构建说明；Windows 开发请阅读 [windows/README.md](windows/README.md)。
 
 前往 [Releases 下载页面](https://github.com/Max1426/traffic-board/releases/latest)，下载 `TrafficBoard-1.1.2.apk` 安装；页面同时提供源码压缩包与 SHA-256 校验文件。手机如提示安装限制，需要允许当前浏览器或文件管理器安装应用。
 
-当前版本 **1.1.2（versionCode 4）**，使用原签名，可直接覆盖旧版并保留订阅与设置。请使用 APK 文件安装；GitHub 的 “Source code” 压缩包需要自行编译。
+Android 当前版本 **1.1.2（versionCode 4）**，使用原签名，可直接覆盖旧版并保留订阅与设置。请使用 APK 文件安装；GitHub 的 “Source code” 压缩包需要自行编译。
 
 ## 界面预览
 

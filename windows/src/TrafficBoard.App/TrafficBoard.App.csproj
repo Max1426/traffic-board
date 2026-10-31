@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows10.0.26100.0</TargetFramework><TargetPlatformMinVersion>10.0.19045.0</TargetPlatformMinVersion>
+    <UseWinUI>true</UseWinUI><WindowsPackageType>None</WindowsPackageType><WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained><SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier><PlatformTarget>x64</PlatformTarget><Platforms>x64</Platforms><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>Assets/traffic-board.ico</ApplicationIcon><AssemblyName>TrafficBoard</AssemblyName><Version>1.0.0</Version><AssemblyVersion>1.0.0.0</AssemblyVersion><FileVersion>1.0.0.0</FileVersion>
+    <Product>流量看板</Product><Company>Max1426</Company><Description>VPN 订阅额度看板</Description><PublishTrimmed>false</PublishTrimmed><RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup><PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" /><PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6584" /><PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" /><ProjectReference Include="../TrafficBoard.Core/TrafficBoard.Core.csproj" /></ItemGroup>
+  <ItemGroup><Content Update="Assets/traffic-board.ico" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+  <!-- .NET publish does not automatically include WinUI's compiled XAML / app PRI. -->
+  <Target Name="PublishWinUiResources" AfterTargets="ComputeFilesToPublish">
+    <ItemGroup>
+      <WinUiPublishResource Include="$(TargetDir)*.xbf;$(TargetDir)$(AssemblyName).pri" />
+      <ResolvedFileToPublish Include="@(WinUiPublishResource)" RelativePath="%(WinUiPublishResource.Filename)%(WinUiPublishResource.Extension)" CopyToPublishDirectory="Always" />
+    </ItemGroup>
+  </Target>
+</Project>
